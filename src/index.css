@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -114,3 +114,26 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+
+/*=========media queries(medium)=========*/
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+
+/*=========media queries(small)=========*/
+
+@media screen and (max-width:600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    section>h2 {
+        margin-bottom: 2rem;
+    }
