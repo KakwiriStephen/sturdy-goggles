@@ -1,16 +1,17 @@
 import React from "react";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
-        LINKEDIN
+        <BsLinkedin />
       </a>
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-        GITHUB
+        <BsGithub />
       </a>
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        TWITTER
+        <BsTwitter />
       </a>
     </div>
   );
