@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import CTA from "./CTA";
 
 const Header = () => {
   return (
@@ -19,6 +20,7 @@ const Header = () => {
             dynamic organization.
           </p> */}
         </h5>
+        <CTA />
       </div>
     </header>
   );
