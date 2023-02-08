@@ -8,22 +8,45 @@ import { BsFillBookmarksFill } from "react-icons/bs";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageDetail } from "react-icons/bi";
 
+import { useState } from "react";
+
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#">
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
-      <a href="#about ">
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+      >
         <FiUserPlus />
       </a>
-      <a href="experience">
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
         <BsFillBookmarksFill />
       </a>
-      <a href="services">
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
         <RiServiceLine />
       </a>
-      <a href="contact">
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <BiMessageDetail />
       </a>
     </nav>
