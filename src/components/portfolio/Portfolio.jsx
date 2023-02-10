@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 import "./portfolio.css";
 
@@ -18,35 +20,35 @@ const data = [
     demo: "https://dribble.com",
   },
   {
-    id: 1,
+    id: 2,
     Image: IMG2,
     title: "Crypto Currency Dashbord & Financial Visualization",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
   {
-    id: 1,
+    id: 3,
     Image: IMG3,
     title: "Crypto Currency Dashbord & Financial Visualization",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
   {
-    id: 1,
+    id: 4,
     Image: IMG4,
     title: "Crypto Currency Dashbord & Financial Visualization",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
   {
-    id: 1,
+    id: 5,
     Image: IMG5,
     title: "Crypto Currency Dashbord & Financial Visualization",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
   {
-    id: 1,
+    id: 6,
     Image: IMG6,
     title: "Crypto Currency Dashbord & Financial Visualization",
     github: "https://github.com",
@@ -55,7 +57,43 @@ const data = [
 ];
 
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return (
+    <section id="portfolio">
+      <h5>My Recent Work</h5>
+      <h2>portfolio</h2>
+
+      <div className="container portfolio__container">
+        {data.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfoli__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default Portfolio;
