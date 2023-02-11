@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_uld5v81",
+        "template_92suu77",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "Jpm7ALwRMK1S8_oCd"
       )
       .then(
         (result) => {
@@ -26,6 +26,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   };
   return (
     <section id="contact">
