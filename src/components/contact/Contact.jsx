@@ -26,6 +26,8 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   };
   return (
     <section id="contact">
