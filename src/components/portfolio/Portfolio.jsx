@@ -3,12 +3,12 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/Capture.PNG";
+import IMG2 from "../../assets/Capture1.PNG";
+import IMG3 from "../../assets/Capture2.PNG";
+import IMG4 from "../../assets/Capture3.PNG";
+import IMG5 from "../../assets/Capture4.PNG";
+import IMG6 from "../../assets/Capture5.PNG";
 
 //Array
 const data = [
