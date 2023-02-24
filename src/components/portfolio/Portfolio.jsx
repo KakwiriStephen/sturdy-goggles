@@ -29,9 +29,9 @@ const data = [
   {
     id: 3,
     Image: IMG3,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    title: "Speak-Om Modern E-Commerce ",
+    github: "https://github.com/KakwiriStephen/Speak-Omm",
+    demo: "https://phanox.vercel.app/",
   },
   {
     id: 4,
