@@ -50,6 +50,10 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
+              <p>UI/UX design</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
               <p>HTML/CSS development</p>
             </li>
             <li>
@@ -58,23 +62,20 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Responsive design</p>
+            </li>
+
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Frontend frameworks and libraries</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Performance optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Cross-browser compatibility testing</p>
             </li>
           </ul>
         </article>
@@ -88,27 +89,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Building APIs</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Developing server-side logic</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Integrating with databases</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Implementing security measures</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Deploying and managing servers</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Continuous integration and deployment</p>
             </li>
           </ul>
         </article>
