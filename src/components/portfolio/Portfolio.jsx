@@ -22,9 +22,9 @@ const data = [
   {
     id: 2,
     Image: IMG2,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com/KakwiriStephen/Natours",
-    demo: "https://dribble.com",
+    title: "Forkify Recipe Web-App",
+    github: "https://github.com/KakwiriStephen/Forkify",
+    demo: "https://forkify-v2.netlify.app/",
   },
   {
     id: 3,
