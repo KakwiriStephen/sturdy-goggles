@@ -29,7 +29,7 @@ const data = [
   {
     id: 3,
     Image: IMG3,
-    title: "Crypto Currency Dashbord & Financial Visualization",
+    title: "Speak-Om Modern E-Commerce ",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
