@@ -43,7 +43,7 @@ const data = [
   {
     id: 5,
     Image: IMG5,
-    title: "Crypto Currency Dashbord & Financial Visualization",
+    title: "FeedBack Generator",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
