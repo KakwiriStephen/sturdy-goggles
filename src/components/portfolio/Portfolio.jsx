@@ -30,8 +30,8 @@ const data = [
     id: 3,
     Image: IMG3,
     title: "Speak-Om Modern E-Commerce ",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    github: "https://github.com/KakwiriStephen/Speak-Omm",
+    demo: "https://phanox.vercel.app/",
   },
   {
     id: 4,
