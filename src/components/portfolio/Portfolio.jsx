@@ -52,7 +52,7 @@ const data = [
     Image: IMG6,
     title: "Responsive Personal Portfolio",
     github: "https://github.com/KakwiriStephen/sturdy-goggles",
-    demo: "https://dribble.com",
+    demo: "https://kakwiri.vercel.app/",
   },
 ];
 
