@@ -45,16 +45,16 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>WEB DEVELOPMENT</h3>
+            <h3>FRONTEND</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>HTML/CSS development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>JavaScript development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -83,7 +83,7 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>CONTENT CREATION</h3>
+            <h3>BACKEND</h3>
           </div>
           <ul className="service__list">
             <li>
