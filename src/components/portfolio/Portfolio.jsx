@@ -37,8 +37,8 @@ const data = [
     id: 4,
     Image: IMG4,
     title: "LinkedIn Clone",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    github: "https://github.com/KakwiriStephen/LinkedIn-Clone",
+    demo: "https://linkedin-clone-kakwiri.netlify.app/",
   },
   {
     id: 5,
