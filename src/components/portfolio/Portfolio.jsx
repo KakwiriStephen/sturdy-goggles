@@ -50,7 +50,7 @@ const data = [
   {
     id: 6,
     Image: IMG6,
-    title: "Crypto Currency Dashbord & Financial Visualization",
+    title: "Responsive Personal Portfolio",
     github: "https://github.com",
     demo: "https://dribble.com",
   },
