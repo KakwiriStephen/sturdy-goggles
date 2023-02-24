@@ -15,16 +15,16 @@ const data = [
   {
     id: 1,
     Image: IMG1,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    title: "Natours Tour Web-App",
+    github: "https://github.com/KakwiriStephen/Natours",
+    demo: "https://arcane-earth-84769.herokuapp.com/",
   },
   {
     id: 2,
     Image: IMG2,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    title: "Forkify Recipe Web-App",
+    github: "https://github.com/KakwiriStephen/Forkify",
+    demo: "https://forkify-v2.netlify.app/",
   },
   {
     id: 3,
