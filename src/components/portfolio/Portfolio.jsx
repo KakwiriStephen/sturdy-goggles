@@ -43,16 +43,16 @@ const data = [
   {
     id: 5,
     Image: IMG5,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    title: "FeedBack Generator",
+    github: "https://github.com/KakwiriStephen/Team-Sardinew2",
+    demo: "https://team-sardinew2-jk6y-git-fork-zuri-training-main-damil27.vercel.app/",
   },
   {
     id: 6,
     Image: IMG6,
-    title: "Crypto Currency Dashbord & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    title: "Responsive Personal Portfolio",
+    github: "https://github.com/KakwiriStephen/sturdy-goggles",
+    demo: "https://kakwiri.vercel.app/",
   },
 ];
 
