@@ -44,8 +44,8 @@ const data = [
     id: 5,
     Image: IMG5,
     title: "FeedBack Generator",
-    github: "https://github.com",
-    demo: "https://dribble.com",
+    github: "https://github.com/KakwiriStephen/Team-Sardinew2",
+    demo: "https://team-sardinew2-jk6y-git-fork-zuri-training-main-damil27.vercel.app/",
   },
   {
     id: 6,
