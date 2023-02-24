@@ -11,32 +11,32 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX DESIGN</h3>
+            <h3>PROBLEM SOLVING</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Defining the problems</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Generating possible solutions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Developing an action plan</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Implementing solutions</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Evaluating the results</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p>Continuous improvement</p>
             </li>
           </ul>
         </article>
