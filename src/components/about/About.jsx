@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/Kakwiri 5.jpg";
+import Me from "../../assets/Kakwiri 5-min.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiFillFolderOpen } from "react-icons/ai";
