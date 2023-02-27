@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonials.css";
 import AVTR1 from "../../assets/isaji.jpg";
-import AVTR2 from "../../assets/taura.jpg";
-import AVTR3 from "../../assets/avatar1.jpg";
-import AVTR4 from "../../assets/avatar1.jpg";
+// import AVTR2 from "../../assets/taura.jpg";
+// import AVTR3 from "../../assets/avatar1.jpg";
+// import AVTR4 from "../../assets/avatar1.jpg";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
