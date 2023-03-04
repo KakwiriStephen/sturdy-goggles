@@ -3,7 +3,7 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Capture.PNG";
+import IMG1 from "../../assets/dashbord.PNG";
 import IMG2 from "../../assets/Capture1.PNG";
 import IMG3 from "../../assets/Capture2.PNG";
 import IMG4 from "../../assets/Capture3.PNG";
@@ -15,9 +15,9 @@ const data = [
   {
     id: 1,
     Image: IMG1,
-    title: "Natours Tour Web-App",
-    github: "https://github.com/KakwiriStephen/Natours",
-    demo: "https://arcane-earth-84769.herokuapp.com/",
+    title: "reimagined-dashboard-invention",
+    github: "https://github.com/KakwiriStephen/reimagined-invention-shoppy",
+    demo: "https://kakwiri-reimagined-invention-shoppy.vercel.app/",
   },
   {
     id: 2,
