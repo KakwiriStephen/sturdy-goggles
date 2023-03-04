@@ -34,18 +34,18 @@ const data = [
     demo: "https://linkedin-clone-kakwiri.netlify.app/",
   },
   {
-    id: 4,
-    Image: IMG2,
-    title: "Forkify Recipe Web-App",
-    github: "https://github.com/KakwiriStephen/Forkify",
-    demo: "https://forkify-v2.netlify.app/",
-  },
-  {
     id: 5,
     Image: IMG5,
     title: "FeedBack Generator",
     github: "https://github.com/KakwiriStephen/Team-Sardinew2",
     demo: "https://team-sardinew2-jk6y-git-fork-zuri-training-main-damil27.vercel.app/",
+  },
+  {
+    id: 4,
+    Image: IMG2,
+    title: "Forkify Recipe Web-App",
+    github: "https://github.com/KakwiriStephen/Forkify",
+    demo: "https://forkify-v2.netlify.app/",
   },
   {
     id: 6,
