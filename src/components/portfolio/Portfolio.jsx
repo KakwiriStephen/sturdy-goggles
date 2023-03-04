@@ -28,17 +28,17 @@ const data = [
   },
   {
     id: 3,
-    Image: IMG2,
-    title: "Forkify Recipe Web-App",
-    github: "https://github.com/KakwiriStephen/Forkify",
-    demo: "https://forkify-v2.netlify.app/",
-  },
-  {
-    id: 4,
     Image: IMG4,
     title: "LinkedIn Clone",
     github: "https://github.com/KakwiriStephen/LinkedIn-Clone",
     demo: "https://linkedin-clone-kakwiri.netlify.app/",
+  },
+  {
+    id: 4,
+    Image: IMG2,
+    title: "Forkify Recipe Web-App",
+    github: "https://github.com/KakwiriStephen/Forkify",
+    demo: "https://forkify-v2.netlify.app/",
   },
   {
     id: 5,
