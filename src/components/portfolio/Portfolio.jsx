@@ -21,17 +21,17 @@ const data = [
   },
   {
     id: 2,
-    Image: IMG2,
-    title: "Forkify Recipe Web-App",
-    github: "https://github.com/KakwiriStephen/Forkify",
-    demo: "https://forkify-v2.netlify.app/",
-  },
-  {
-    id: 3,
     Image: IMG3,
     title: "Speak-Om Modern E-Commerce ",
     github: "https://github.com/KakwiriStephen/Speak-Omm",
     demo: "https://phanox.vercel.app/",
+  },
+  {
+    id: 3,
+    Image: IMG2,
+    title: "Forkify Recipe Web-App",
+    github: "https://github.com/KakwiriStephen/Forkify",
+    demo: "https://forkify-v2.netlify.app/",
   },
   {
     id: 4,
