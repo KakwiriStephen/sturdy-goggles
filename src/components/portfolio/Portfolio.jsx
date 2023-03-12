@@ -50,9 +50,9 @@ const data = [
   {
     id: 6,
     Image: IMG6,
-    title: "Responsive Personal Portfolio",
-    github: "https://github.com/KakwiriStephen/sturdy-goggles",
-    demo: "https://kakwiri.vercel.app/",
+    title: "PowerPlus Fitness Mentor",
+    github: "https://github.com/KakwiriStephen/PowerPulse-MuscleMentor",
+    demo: "https://muscle-mentor-kakwiri.netlify.app/",
   },
 ];
 
