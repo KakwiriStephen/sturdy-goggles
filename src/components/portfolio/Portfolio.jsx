@@ -51,7 +51,7 @@ const data = [
     id: 6,
     Image: IMG6,
     title: "PowerPlus Fitness Mentor",
-    github: "https://github.com/KakwiriStephen/sturdy-goggles",
+    github: "https://github.com/KakwiriStephen/PowerPulse-MuscleMentor",
     demo: "https://kakwiri.vercel.app/",
   },
 ];
