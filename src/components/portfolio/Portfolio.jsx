@@ -52,7 +52,7 @@ const data = [
     Image: IMG6,
     title: "PowerPlus Fitness Mentor",
     github: "https://github.com/KakwiriStephen/PowerPulse-MuscleMentor",
-    demo: "https://kakwiri.vercel.app/",
+    demo: "https://muscle-mentor-kakwiri.netlify.app/",
   },
 ];
 
