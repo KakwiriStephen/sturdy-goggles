@@ -20,26 +20,8 @@ const data = [
     avatar: AVTR1,
     name: "Brian Isaji",
     review:
-      "I had the pleasure of working with Kakwiri on a recent project and I was thoroughly impressed with their skills and dedication. He has a deep understanding of Computer Science, and their technical knowledge allowed us to efficiently and effectively tackle any challenges that arose. Kakwiri is also a fantastic communicator and team player, always willing to lend a helping hand and collaborate with others. I highly recommend him for any engineering role and I am confident he will exceed expectations.",
+      "I had the pleasure of working with Kakwiri on a recent project and I was thoroughly impressed with his skills and dedication. He has a deep understanding of Software Engineering, and his technical knowledge allowed us to efficiently and effectively tackle any challenges that arose. Kakwiri is also a fantastic communicator and team player, always willing to lend a helping hand and collaborate with others. I highly recommend him for any engineering role and I am confident he will exceed expectations.",
   },
-  // {
-  //   avatar: AVTR2,
-  //   name: "Kadzo Karanja",
-  //   review:
-  //     "I had the pleasure of working with Kakwiri on a recent project and I was thoroughly impressed with their skills and dedication. He has a deep understanding of Computer Science, and their technical knowledge allowed us to efficiently and effectively tackle any challenges that arose. Kakwiri is also a fantastic communicator and team player, always willing to lend a helping hand and collaborate with others. I highly recommend him for any engineering role and I am confident he will exceed expectations.",
-  // },
-  // {
-  //   avatar: AVTR3,
-  //   name: "Nacy Karanja",
-  //   review:
-  //     "I had the pleasure of working with Kakwiri on a recent project and I was thoroughly impressed with their skills and dedication. He has a deep understanding of Computer Science, and their technical knowledge allowed us to efficiently and effectively tackle any challenges that arose. Kakwiri is also a fantastic communicator and team player, always willing to lend a helping hand and collaborate with others. I highly recommend him for any engineering role and I am confident he will exceed expectations.",
-  // },
-  // {
-  //   avatar: AVTR4,
-  //   name: "Shiroo Karanja",
-  //   review:
-  //     "I had the pleasure of working with Kakwiri on a recent project and I was thoroughly impressed with their skills and dedication. He has a deep understanding of Computer Science, and their technical knowledge allowed us to efficiently and effectively tackle any challenges that arose. Kakwiri is also a fantastic communicator and team player, always willing to lend a helping hand and collaborate with others. I highly recommend him for any engineering role and I am confident he will exceed expectations.",
-  // },
 ];
 
 const Testimonial = () => {
