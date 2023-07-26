@@ -10,6 +10,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
+          {/* frontend */}
           <h3>Fronted Development</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -23,7 +24,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>NextJS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -39,7 +40,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>React Native</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -93,7 +94,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Django</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
