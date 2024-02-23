@@ -3,57 +3,100 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/dashbord.PNG";
 import IMG2 from "../../assets/Capture1.PNG";
-import IMG3 from "../../assets/Capture2.PNG";
 import IMG4 from "../../assets/Capture3.PNG";
 import IMG5 from "../../assets/Capture4.PNG";
 import IMG6 from "../../assets/Capture5.PNG";
+
+import pr1 from "../../assets/projects/cart.jpg";
+import pr2 from "../../assets/projects/nat.jpg";
+import pr3 from "../../assets/projects/web3.jpg";
+import pr4 from "../../assets/projects/ecom.jpg";
+import pr5 from "../../assets/projects/analysis.jpg";
+import pr6 from "../../assets/projects/saf.jpg";
+import pr7 from "../../assets/projects/inv.jpg";
 
 //Array
 const data = [
   {
     id: 1,
-    Image: IMG1,
-    title: "reimagined-dashboard-invention",
-    github: "https://github.com/KakwiriStephen/reimagined-invention-shoppy",
-    demo: "https://kakwiri-reimagined-invention-shoppy.vercel.app/",
+    title: "Product Catalogue / E-commerce",
+    Image: pr1,
+    github: "https://github.com/KakwiriStephen/VirtuMart",
+    demo: "https://virtu-mart.vercel.app/",
   },
+
   {
     id: 2,
-    Image: IMG3,
-    title: "Speak-Om Modern E-Commerce ",
+    title: "Tour Companion (Natours)",
+    Image: pr2,
+    github: "https://github.com/KakwiriStephen/Natours",
+    demo: "https://natours-g12a.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "Web3 Crowd-funding Platform",
+    Image: pr3,
+    github: "https://github.com/KakwiriStephen/Web3-FundFlow",
+    demo: "https://github.com/KakwiriStephen/Web3-FundFlow",
+  },
+  {
+    id: 4,
+    title: "Mini E-commerce Platform",
+    Image: pr4,
     github: "https://github.com/KakwiriStephen/Speak-Omm",
     demo: "https://phanox.vercel.app/",
   },
   {
-    id: 3,
-    Image: IMG4,
-    title: "LinkedIn Clone",
-    github: "https://github.com/KakwiriStephen/LinkedIn-Clone",
-    demo: "https://linkedin-clone-kakwiri.netlify.app/",
-  },
-  {
     id: 5,
-    Image: IMG5,
-    title: "FeedBack Generator",
-    github: "https://github.com/KakwiriStephen/Team-Sardinew2",
-    demo: "https://team-sardinew2-jk6y-git-fork-zuri-training-main-damil27.vercel.app/",
-  },
-  {
-    id: 4,
-    Image: IMG2,
-    title: "Forkify Recipe Web-App",
-    github: "https://github.com/KakwiriStephen/Forkify",
-    demo: "https://forkify-v2.netlify.app/",
+    title: "Analytics Dashboard",
+    Image: pr5,
+    github: "https://github.com/KakwiriStephen/reimagined-invention-shoppy",
+    demo: "https://reimagined-invention-shoppy-kakwiristephen.vercel.app/",
   },
   {
     id: 6,
-    Image: IMG6,
-    title: "PowerPlus Fitness Mentor",
-    github: "https://github.com/KakwiriStephen/PowerPulse-MuscleMentor",
-    demo: "https://muscle-mentor-kakwiri.netlify.app/",
+    title: "Camping Companion",
+    Image: pr6,
+    github: "https://github.com/KakwiriStephen/CampSafari",
+    demo: "https://camp-safari.vercel.app/",
   },
+  {
+    id: 7,
+    title: "Stock Inventory Manager",
+    Image: pr7,
+    github: "https://github.com/KakwiriStephen/Stock-Management-System",
+    demo: "https://github.com/KakwiriStephen/Stock-Management-System",
+  },
+
+  // {
+  //   id: 8,
+  //   Image: IMG4,
+  //   title: "LinkedIn Clone",
+  //   github: "https://github.com/KakwiriStephen/LinkedIn-Clone",
+  //   demo: "https://linkedin-clone-kakwiri.netlify.app/",
+  // },
+  // {
+  //   id: 9,
+  //   Image: IMG5,
+  //   title: "FeedBack Generator",
+  //   github: "https://github.com/KakwiriStephen/Team-Sardinew2",
+  //   demo: "https://team-sardinew2-jk6y-git-fork-zuri-training-main-damil27.vercel.app/",
+  // },
+  // {
+  //   id: 10,
+  //   Image: IMG2,
+  //   title: "Forkify Recipe Web-App",
+  //   github: "https://github.com/KakwiriStephen/Forkify",
+  //   demo: "",
+  // },
+  // {
+  //   id: 11,
+  //   Image: IMG6,
+  //   title: "PowerPlus Fitness Mentor",
+  //   github: "https://github.com/KakwiriStephen/PowerPulse-MuscleMentor",
+  //   demo: "https://muscle-mentor-kakwiri.netlify.app/",
+  // },
 ];
 
 const Portfolio = () => {
